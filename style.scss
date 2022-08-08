@@ -146,13 +146,17 @@ text-align: center;
     height: 900px;
     background-color: white;
     display: grid;
-    grid-template-columns: 10fr;
-    grid-template-areas: "menu-text" "col-1 col-2";
+    grid-template-columns:  2fr 1fr  2fr;
+    grid-template-rows:   2fr   2fr  ;
+    grid-template-areas: "menu-text col-1 col-2";
+    padding: 0 0 60px 0;
     &-menu{
         grid-area: menu-text;
+        
     }
     &-col{
         grid-area: col-1;
+        
     }
     &-col2{
         grid-area: col-2;
@@ -160,6 +164,9 @@ text-align: center;
     
     .menu-text{
         text-align: center;
+        grid-row: 1;
+        grid-column: 2;
+        margin: 0 -19px 0 20px;
         h1{
             font-size: 56px;
             font-family: 'Dancing Script', cursive;
@@ -186,8 +193,11 @@ text-align: center;
 .col-1{
     width: 500px;
     height: 540px;
-    margin-left: 8%;
-    margin-top: 3%;
+    grid-row: 2;
+    grid-column: 1;
+    margin-left: 82px;
+    
+   
     h3{
         font-size: 16px;
         font-weight: 600;
@@ -211,8 +221,8 @@ text-align: center;
 .col-2{
     width: 500px;
     height: 540px;
-    margin-left: 55%;
-    margin-top: -39%;
+    grid-row: 2;
+    grid-column: 3;
     
     h3{
         font-size: 16px;
