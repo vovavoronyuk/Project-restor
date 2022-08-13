@@ -429,10 +429,19 @@
   main .our-menu .menu-text h1 {
     margin: 120px -30px 53px 0;
   }
+  main .our-menu .menu-text {
+    margin: 0 -27px 0 -45px;
+  }
   main .col-2 h4 {
     margin: -18px 0 0 440px;
   }
   main .col-2 h3 {
+    position: relative;
+  }
+  main .col-1 h4 {
+    margin: -18px 0 0 440px;
+  }
+  main .col-1 h3 {
     position: relative;
   }
   footer {
