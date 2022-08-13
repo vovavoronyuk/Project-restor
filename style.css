@@ -414,4 +414,54 @@
 .bottom-link .icons {
   margin: 0 0 0 15px;
 }
+
+@media (max-width: 767px) {
+  .header {
+    width: 1263px;
+  }
+  .header-nav {
+    -ms-grid-columns: 0.1fr 0.2fr 0.1fr 0.1fr 0.1fr 0.1fr;
+        grid-template-columns: 0.1fr 0.2fr 0.1fr 0.1fr 0.1fr 0.1fr;
+  }
+  main {
+    width: 1263px;
+  }
+  main .our-menu .menu-text h1 {
+    margin: 120px -30px 53px 0;
+  }
+  main .col-2 h4 {
+    margin: -18px 0 0 440px;
+  }
+  main .col-2 h3 {
+    position: relative;
+  }
+  footer {
+    width: 1263px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    width: 1263px;
+  }
+  .header-nav {
+    -ms-grid-columns: 0.1fr 0.2fr 0.1fr 0.1fr 0.1fr 0.1fr;
+        grid-template-columns: 0.1fr 0.2fr 0.1fr 0.1fr 0.1fr 0.1fr;
+  }
+  main {
+    width: 1263px;
+  }
+  main .our-menu .menu-text h1 {
+    margin: 120px -30px 53px 0;
+  }
+  main .col-2 h4 {
+    margin: -18px 0 0 440px;
+  }
+  main .col-2 h3 {
+    position: relative;
+  }
+  footer {
+    width: 1263px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
